@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagination-child {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(220, 220, 220);
+}
